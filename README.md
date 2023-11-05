@@ -19,7 +19,7 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
     
     OR you need to Build :-) (**Ctrl+Shift+B**)
 
-* **How to debug?:* Program.fs will be ran when you start debugging. All the open statements are alredy prepared. 
+* **How to debug?:** Program.fs will be ran when you start debugging. All the open statements are alredy prepared. 
     
     Note: Global open is not supported in F#. 
 
