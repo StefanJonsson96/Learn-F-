@@ -17,6 +17,7 @@ open ConsoleApp.InputOutput.InputOutput
 open ConsoleApp.InputOutput.DifferentPrintFunctions
 open ConsoleApp.InputOutput.Unit
 open ConsoleApp.Bindings.LetBindings
+open ConsoleApp.Bindings.UseBindings
 open ConsoleApp.HelloWorld.HelloWorld
 open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
@@ -25,6 +26,5 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        helloWorld
-        0 |> ignore
+        writeToFile "file.txt" "hejsan hoppsan"
 
