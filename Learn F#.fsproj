@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="InputOutput\InputOutput.fsx" />
+    <None Include="Bindings\Bindings.fsx" />
+    <None Include="HelloWorld\HelloWorld.fsx" />
+    <None Include="StringBuilder\StringBuilder.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
