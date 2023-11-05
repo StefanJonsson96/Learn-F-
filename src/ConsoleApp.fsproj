@@ -24,6 +24,7 @@
     <Compile Include="InputOutput\Unit.fsx" />
     <Compile Include="InputOutput\PrintFunctions.fsx" />
     <Compile Include="InputOutput\InputOutput.fsx" />
+    <Compile Include="Bindings\DoBindings.fsx" />
     <Compile Include="Bindings\UsingBindings.fsx" />
     <Compile Include="Bindings\UseBindings.fsx" />
     <Compile Include="Bindings\LetBindings.fsx" />

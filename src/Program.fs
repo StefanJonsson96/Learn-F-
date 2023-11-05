@@ -19,6 +19,7 @@ open ConsoleApp.InputOutput.Unit
 open ConsoleApp.Bindings.LetBindings
 open ConsoleApp.Bindings.UseBindings
 open ConsoleApp.Bindings.UsingBindings
+open ConsoleApp.Bindings.DoBindings
 open ConsoleApp.HelloWorld.HelloWorld
 open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
@@ -27,5 +28,6 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        writeToFile2 "file.txt" "hejsan hoppsan"
+        helloWorld
+        0
 
