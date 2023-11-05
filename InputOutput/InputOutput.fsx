@@ -1,14 +1,13 @@
-﻿open System
+﻿namespace ConsoleApp.InputOutput
 
-let inputOutput _ =
-    printf "Hejsan hoppsan \n"
-    let input = Console.ReadLine(); // familiar? .net classes are avaliable in F#
-    Console.WriteLine("\n" 
-    + "You wrote:" 
-    + input 
-    + ".\nGoodbye"); 
-    0
+open System
 
-[<EntryPoint>]
-    inputOutput
-    0
+module InputOutput = 
+    let InputOutput _ =
+        printf "Hejsan hoppsan \n"
+        let input = Console.ReadLine(); // familiar? .net classes are avaliable in F#
+        Console.WriteLine("\n" 
+        + "You wrote:" 
+        + input 
+        + ".\nGoodbye"); 
+        0
