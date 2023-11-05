@@ -5,6 +5,9 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
 **TODO: Try VSCode.**
 
 # Notes:
+* **Material used:**
+  - Microsoft docs: https://learn.microsoft.com/en-us/dotnet/fsharp/
+  - Pluralsight course: https://app.pluralsight.com/library/courses/f-sharp-6-fundamentals/table-of-contents
 
 * **Is your file not running?:** The default behaviour is for files to not be built. You would have to click the file(s) that you care about building in Solution Explorer, and under Properties => Build action: F# Compiler. 
 
