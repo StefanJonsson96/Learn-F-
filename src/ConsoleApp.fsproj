@@ -25,6 +25,7 @@
     <Compile Include="InputOutput\PrintFunctions.fsx" />
     <Compile Include="InputOutput\InputOutput.fsx" />
     <Compile Include="Bindings\Bindings.fsx" />
+    <Compile Include="Bindings\LetBindings.fsx" />
     <Compile Include="HelloWorld\CliArgs.fsx" />
     <Compile Include="HelloWorld\Square.fsx" />
     <Compile Include="HelloWorld\HelloWorld.fsx" />

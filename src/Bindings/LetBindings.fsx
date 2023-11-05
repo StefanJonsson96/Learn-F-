@@ -1,8 +1,8 @@
 ﻿namespace ConsoleApp.Bindings
 
-module Bindings = 
+module LetBindings = 
 
-    let Bindings _ = // ConsoleApp.Bindings are anything that is assigned using let keyword
+    let bindings _ = // ConsoleApp.Bindings are anything that is assigned using let keyword
         let test = "hejsanHoppsan" // this is not a variable, it is a binding and it is immutable
         let test2 x y = x + y // a function is also a binding and also using let keyword
         let mutable mutableString ="hejsan" // mutable keyword makes a binding mutable

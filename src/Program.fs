@@ -16,7 +16,7 @@ open ConsoleApp.Strings.VerbatimString
 open ConsoleApp.InputOutput.InputOutput  
 open ConsoleApp.InputOutput.DifferentPrintFunctions
 open ConsoleApp.InputOutput.Unit
-open ConsoleApp.Bindings.Bindings
+open ConsoleApp.Bindings.LetBindings
 open ConsoleApp.HelloWorld.HelloWorld
 open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
