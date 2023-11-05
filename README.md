@@ -8,6 +8,7 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
 * **Material used:**
   - Microsoft docs: https://learn.microsoft.com/en-us/dotnet/fsharp/
   - Pluralsight course: https://app.pluralsight.com/library/courses/f-sharp-6-fundamentals/table-of-contents
+  - Google Bard AI: https://bard.google.com/ (you can send it small code snippets and ask for assistance, with clever prompting you can ask it how to figure out why something doesn't work instead of just fixing the code directly.)
 
 * **Is your file not running?:** The default behaviour is for files to not be built. You would have to click the file(s) that you care about building in Solution Explorer, and under Properties => Build action: F# Compiler. 
 
