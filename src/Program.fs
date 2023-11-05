@@ -18,6 +18,7 @@ open ConsoleApp.InputOutput.DifferentPrintFunctions
 open ConsoleApp.InputOutput.Unit
 open ConsoleApp.Bindings.LetBindings
 open ConsoleApp.Bindings.UseBindings
+open ConsoleApp.Bindings.UsingBindings
 open ConsoleApp.HelloWorld.HelloWorld
 open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
@@ -26,5 +27,5 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        writeToFile "file.txt" "hejsan hoppsan"
+        writeToFile2 "file.txt" "hejsan hoppsan"
 
