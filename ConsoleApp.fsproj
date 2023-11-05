@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Collections\PipeForwardOperatorList.fs" />
+    <Compile Include="Collections\ConcatenateOperatorList.fs" />
+    <Compile Include="Collections\ConsOperatorList.fs" />
+    <Compile Include="Collections\IntRangesArray.fs" />
+    <Compile Include="Collections\List.fs" />
+    <Compile Include="Collections\Array.fs" />
+    <Compile Include="Generics\GetTypeName.fs" />
+    <Compile Include="Generics\WronglyInferedGenericKvp.fs" />
+    <Compile Include="Generics\GenericKvp.fs" />
+    <Compile Include="Generics\GenericKvpTesting.fsx" />
+    <Compile Include="Strings\SliceString.fsx" />
+    <Compile Include="Strings\VerbatimString.fsx" />
+    <Compile Include="Strings\StringInterpolation.fsx" />
+    <Compile Include="Strings\NewLineString.fsx" />
+    <Compile Include="Strings\TriplpleQuotedString.fsx" />
+    <Compile Include="InputOutput\Unit.fsx" />
+    <Compile Include="InputOutput\PrintFunctions.fsx" />
+    <Compile Include="InputOutput\InputOutput.fsx" />
+    <Compile Include="Bindings\Bindings.fsx" />
+    <Compile Include="HelloWorld\CliArgs.fsx" />
+    <Compile Include="HelloWorld\Square.fsx" />
+    <Compile Include="HelloWorld\HelloWorld.fsx" />
+    <Compile Include="StringBuilder\StringBuilder.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
