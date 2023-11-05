@@ -8,7 +8,7 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
 
 * **Is your file not running?:** The default behaviour is for files to not be built. You would have to click the file(s) that you care about building in Solution Explorer, and under Properties => Build action: F# Compiler. 
 
-    **TODO: Find a better workaround for this, since its quite annoying. Current workaround is to copy files instead of creating new files so I keep the setting.**
+    **TODO: Find a better workaround for this, since its quite annoying.** Current workaround is to copy files instead of creating new files so I keep the setting.
 
 * **Why cant i open module x?:** File x that needs to open file y needs to be the further down in the folder since the F# compiler reads top to bottom. 
 
