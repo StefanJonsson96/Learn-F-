@@ -16,9 +16,7 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
     
     OR you need to Build :-) (**Ctrl+Shift+B**)
 
-* **[How to debug?:](/#step6)** Program.fs will be ran when we start debugging. All the open statements are alredy prepared. 
-
-    So if you for example want to debug the "SliceString" function, replace the function call below **[<EntrypPoint\>]** attribute. 
+* **How to debug?:* Program.fs will be ran when you start debugging. All the open statements are alredy prepared. 
     
     Note: Global open is not supported in F#. 
 
@@ -40,9 +38,9 @@ This project consists of a bunch of small files to learn F# syntax. I try to inc
     
     5: Add open statement in Program.fs
 
-    6: [Follow steps in "How to debug"](/#step6)
+    6: Replace the function call below **[<EntrypPoint\>]** attribute with the new function.
 
-    7: Fix code if it doesn't work.
+    7: Debug the application and fix the code if it doesn't work.
 
     8: Repeat.
     
