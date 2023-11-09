@@ -1,4 +1,7 @@
-﻿open ConsoleApp.Collections.Array
+﻿open ConsoleApp.Iteration.ForInDo
+open ConsoleApp.Iteration.ForToDo
+open ConsoleApp.Iteration.WhileDo
+open ConsoleApp.Collections.Array
 open ConsoleApp.Collections.List
 open ConsoleApp.Collections.IntRangesArray
 open ConsoleApp.Collections.ConsOperatorList
@@ -28,6 +31,6 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        helloWorld
-        0
+        forToDoLoop() |> ignore
+
 

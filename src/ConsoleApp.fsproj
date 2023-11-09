@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Iteration\WhileDo.fsx" />
+    <Compile Include="Iteration\ForToDo.fsx" />
+    <Compile Include="Iteration\ForInDo.fsx" />
     <Compile Include="Collections\PipeForwardOperatorList.fs" />
     <Compile Include="Collections\ConcatenateOperatorList.fs" />
     <Compile Include="Collections\ConsOperatorList.fs" />
@@ -34,5 +37,7 @@
     <Compile Include="StringBuilder\StringBuilder.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
 </Project>
