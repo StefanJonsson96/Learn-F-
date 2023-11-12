@@ -31,6 +31,6 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        forToDoLoop() |> ignore
+        whileDoLoop() |> ignore
 
 
