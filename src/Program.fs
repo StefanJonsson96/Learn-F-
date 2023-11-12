@@ -1,6 +1,7 @@
 ﻿open ConsoleApp.Iteration.ForInDo
 open ConsoleApp.Iteration.ForToDo
 open ConsoleApp.Iteration.WhileDo
+open ConsoleApp.Iteration.FunctionalForLoop
 open ConsoleApp.Collections.Array
 open ConsoleApp.Collections.List
 open ConsoleApp.Collections.IntRangesArray
@@ -31,6 +32,6 @@ open ConsoleApp.StringBuilder.StringBuilder
 module Main = 
 
     [<EntryPoint>]
-        whileDoLoop() |> ignore
+        listIteration() |> ignore
 
 
