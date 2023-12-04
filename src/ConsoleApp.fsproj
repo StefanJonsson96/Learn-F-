@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Conditionals\IfStatementWithElse.fsx" />
     <Compile Include="Iteration\Functional\FunctionalForLoop.fsx" />
     <Compile Include="Iteration\Imperative\WhileDo.fsx" />
     <Compile Include="Iteration\Imperative\ForToDo.fsx" />

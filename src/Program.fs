@@ -28,10 +28,10 @@ open ConsoleApp.HelloWorld.HelloWorld
 open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
 open ConsoleApp.StringBuilder.StringBuilder
+open ConsoleApp.Conditionals.ifStatements
 
 module Main = 
 
     [<EntryPoint>]
-        listIteration() |> ignore
-
+    printfn "%A" (ifStatement (), ifStatementWithElif ())
 
