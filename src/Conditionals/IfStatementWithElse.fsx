@@ -18,3 +18,6 @@ module ifStatements =
         else // then keyword is only needed after if/elif, not else
             4
 
+    let ifStatementWithNoElse _ =
+        if 1 = 1 then
+            20 |> ignore // ignoring just to be able to skip the else clause is kind of pointless, since now we cannot even access the value "20"

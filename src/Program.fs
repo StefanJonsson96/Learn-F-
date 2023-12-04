@@ -33,5 +33,5 @@ open ConsoleApp.Conditionals.ifStatements
 module Main = 
 
     [<EntryPoint>]
-    printfn "%A" (ifStatement (), ifStatementWithElif ())
+    printfn "%A" (ifStatement (), ifStatementWithElif (), ifStatementWithNoElse ())
 
