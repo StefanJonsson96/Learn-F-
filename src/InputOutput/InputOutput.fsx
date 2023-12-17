@@ -11,3 +11,17 @@ module InputOutput =
         + input 
         + ".\nGoodbye"); 
         0
+
+    let exitProgramInput _ =
+      
+      let mutable shouldContinue = true
+      while shouldContinue do    
+        Console.WriteLine("Hello world. Press x to exit.")
+        let input = Console.ReadLine();
+
+        shouldContinue <- input <> "x"
+
+      Console.WriteLine("Exited program.")
+      0
+      
+      

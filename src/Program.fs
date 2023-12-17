@@ -33,5 +33,6 @@ open ConsoleApp.Conditionals.ifStatements
 module Main = 
 
     [<EntryPoint>]
-    printfn "%A" (ifStatement (), ifStatementWithElif (), ifStatementWithNoElse ())
+    exitProgramInput() |> ignore
+    0
 
