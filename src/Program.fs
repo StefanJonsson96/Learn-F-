@@ -40,5 +40,8 @@ module Main =
     printfn "%A" (mapNumberToString2 1)
     printfn "%A" (mapNumberToString2 5)
     printfn "%A" (mapNumberToString2 123123123)
+    printfn "%A" (mapNumberToString3 1)
+    printfn "%A" (mapNumberToString3 5)
+    printfn "%A" (mapNumberToString3 123123123)
     0
 

@@ -28,3 +28,9 @@ module PatternMatchConstant =
     | 8 -> "Eight"
     | 9 -> "Nine"
     | _ -> "Not a number"
+
+    let mapNumberToString3 =  function // You can have multiple matches within the same pattern
+    | 0 | 1 | 2 | 3 | 4  -> "Found a number below 5"
+    | 5 | 6 | 7 | 8 | 9 -> "Found a number above 5"
+    | a -> $"Not a number: {a}" // If you use the default operator _ the value is not stored! a is just a way to declare the value.
+
