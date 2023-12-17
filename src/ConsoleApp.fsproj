@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Exceptions\Exceptions.fsx" />
     <Compile Include="PatternMatching\PatternMatchConstant.fsx" />
     <Compile Include="Conditionals\IfStatementWithElse.fsx" />
     <Compile Include="Iteration\Functional\FunctionalForLoop.fsx" />

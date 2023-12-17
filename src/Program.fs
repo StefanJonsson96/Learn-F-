@@ -30,18 +30,12 @@ open ConsoleApp.HelloWorld.CliArgs
 open ConsoleApp.StringBuilder.StringBuilder
 open ConsoleApp.Conditionals.ifStatements
 open ConsoleApp.PatternMatching.PatternMatchConstant
+open ConsoleApp.Exceptions.Exceptions
+open System
 
 module Main = 
 
     [<EntryPoint>]
-    printfn "%A" (mapNumberToString 1)
-    printfn "%A" (mapNumberToString 5)
-    printfn "%A" (mapNumberToString 123123123)
-    printfn "%A" (mapNumberToString2 1)
-    printfn "%A" (mapNumberToString2 5)
-    printfn "%A" (mapNumberToString2 123123123)
-    printfn "%A" (mapNumberToString3 1)
-    printfn "%A" (mapNumberToString3 5)
-    printfn "%A" (mapNumberToString3 123123123)
-    0
+    (catchCustomExceptionTest 0)
+
 
