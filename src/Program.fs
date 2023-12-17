@@ -29,10 +29,13 @@ open ConsoleApp.HelloWorld.Square
 open ConsoleApp.HelloWorld.CliArgs
 open ConsoleApp.StringBuilder.StringBuilder
 open ConsoleApp.Conditionals.ifStatements
+open ConsoleApp.PatternMatching.PatternMatchConstant
 
 module Main = 
 
     [<EntryPoint>]
-    exitProgramInput() |> ignore
+    printfn "%A" (mapNumberToString 1)
+    printfn "%A" (mapNumberToString 5)
+    printfn "%A" (mapNumberToString 123123123)
     0
 
