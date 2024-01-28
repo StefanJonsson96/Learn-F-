@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Tuples\Tuples.fs" />
     <Compile Include="Exceptions\Exceptions.fsx" />
     <Compile Include="PatternMatching\PatternMatchConstant.fsx" />
     <Compile Include="Conditionals\IfStatementWithElse.fsx" />
