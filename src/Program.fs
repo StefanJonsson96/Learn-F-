@@ -31,14 +31,14 @@ open ConsoleApp.StringBuilder.StringBuilder
 open ConsoleApp.Conditionals.ifStatements
 open ConsoleApp.PatternMatching.PatternMatchConstant
 open ConsoleApp.Exceptions.Exceptions
-open ConsoleApp.Tuples
-open System
 open ConsoleApp.Tuples.Tuples
+open ConsoleApp.Records.Records
+open System
 
 module Main = 
 
     [<EntryPoint>]
-    tryGetThirdValueFromTuple()
+    checkRecordEquavilence()
     0
 
 
