@@ -41,6 +41,8 @@
     <Compile Include="HelloWorld\Square.fsx" />
     <Compile Include="HelloWorld\HelloWorld.fsx" />
     <Compile Include="StringBuilder\StringBuilder.fsx" />
+    <Compile Include="DiscriminatedUnions\Shapes.fs" />
+    <Compile Include="DiscriminatedUnions\DaysOfWeek.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
