@@ -41,7 +41,11 @@ open System
 module Main = 
 
     [<EntryPoint>]
-    isItSomething (Some 1) |> printfn "%A"
-    isItSomething None |> printfn "%A"
+    addAsOptions (Some 1) (Some 3) |> describe |> printfn "%A"
+    addAsOptions (Some 1) (None) |> describe |> printfn "%A"
+    addAsOptions (None) (Some 1) |> describe |> printfn "%A"
+    addAsOptions (None) (None) |> describe |> printfn "%A"
+    parseStringToDoubleOptions "35.0" |> describe |> printfn "%A"
+    parseStringToDoubleOptions "not a double" |> describe |> printfn "%A"
 
 
