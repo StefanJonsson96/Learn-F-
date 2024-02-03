@@ -36,16 +36,12 @@ open ConsoleApp.Records.Records
 open ConsoleApp.DiscriminatedUnions.DaysOfWeek
 open ConsoleApp.DiscriminatedUnions.Shapes
 open ConsoleApp.Options.Options
+open ConsoleApp.Results.RequestHandler
 open System
 
 module Main = 
 
-    [<EntryPoint>]
-    addAsOptions (Some 1) (Some 3) |> describe |> printfn "%A"
-    addAsOptions (Some 1) (None) |> describe |> printfn "%A"
-    addAsOptions (None) (Some 1) |> describe |> printfn "%A"
-    addAsOptions (None) (None) |> describe |> printfn "%A"
-    parseStringToDoubleOptions "35.0" |> describe |> printfn "%A"
-    parseStringToDoubleOptions "not a double" |> describe |> printfn "%A"
-
-
+   [<EntryPoint>] 
+   requestProcessor {Id=1; Name="Stefan"; Email="Stefan@test.se"} |> printfn "%A"
+   requestProcessor {Id=2; Name=""; Email="@test.se"} |> printfn "%A"
+   requestProcessor {Id=3; Name="Stefan"; Email=""} |> printfn "%A"

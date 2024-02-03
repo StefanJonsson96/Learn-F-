@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Results\RequestPipelineError.fs" />
+    <Compile Include="Results\Request.fs" />
+    <Compile Include="Results\RequestHandler.fs" />
     <Compile Include="Options\Options.fs" />
     <Compile Include="Records\Records.fs" />
     <Compile Include="Tuples\Tuples.fs" />
