@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Options\Options.fs" />
     <Compile Include="Records\Records.fs" />
     <Compile Include="Tuples\Tuples.fs" />
     <Compile Include="Exceptions\Exceptions.fsx" />

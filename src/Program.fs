@@ -35,13 +35,13 @@ open ConsoleApp.Tuples.Tuples
 open ConsoleApp.Records.Records
 open ConsoleApp.DiscriminatedUnions.DaysOfWeek
 open ConsoleApp.DiscriminatedUnions.Shapes
+open ConsoleApp.Options.Options
 open System
 
 module Main = 
 
     [<EntryPoint>]
-    printPerimiterOfAShape (Circle(3.5)) |> ignore
-    printPerimiterOfAShape (Rectangle(5.5, 10.9)) |> ignore
-    printPerimiterOfAShape (Triangle(1.5, 3.5, 6.5)) |> ignore
+    isItSomething (Some 1) |> printfn "%A"
+    isItSomething None |> printfn "%A"
 
 
