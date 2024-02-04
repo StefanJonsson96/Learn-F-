@@ -37,11 +37,10 @@ open ConsoleApp.DiscriminatedUnions.DaysOfWeek
 open ConsoleApp.DiscriminatedUnions.Shapes
 open ConsoleApp.Options.Options
 open ConsoleApp.Results.RequestHandler
+open ConsoleApp.UnitOfMeasure.UnitOfMeasure
 open System
 
 module Main = 
 
    [<EntryPoint>] 
-   requestProcessor {Id=1; Name="Stefan"; Email="Stefan@test.se"} |> printfn "%A"
-   requestProcessor {Id=2; Name=""; Email="@test.se"} |> printfn "%A"
-   requestProcessor {Id=3; Name="Stefan"; Email=""} |> printfn "%A"
+   convertDegCToF 35.0<degreeCelcius> |> printfn"%A"

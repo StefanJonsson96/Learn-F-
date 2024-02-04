@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="UnitOfMeasure\UnitOfMeasure.fs" />
+    <Compile Include="UnitOfMeasure\UnitOfMeasure .fsx" />
     <Compile Include="Results\RequestPipelineError.fs" />
     <Compile Include="Results\Request.fs" />
     <Compile Include="Results\RequestHandler.fs" />
