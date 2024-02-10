@@ -8,6 +8,7 @@ open ConsoleApp.Collections.IntRangesArray
 open ConsoleApp.Collections.ConsOperatorList
 open ConsoleApp.Collections.ConcatenateOperatorList
 open ConsoleApp.Collections.PipeForwardOperatorList
+open ConsoleApp.Collections.Sequences
 open ConsoleApp.Generics.GenericKvp
 open ConsoleApp.Generics.GenericKvpTesting
 open ConsoleApp.Generics.GetTypeName
@@ -43,4 +44,6 @@ open System
 module Main = 
 
    [<EntryPoint>] 
-   convertDegCToF 35.0<degreeCelcius> |> printfn"%A"
+   sequenceTest 0 |> ignore
+   slowListTest 0 |> ignore
+   0

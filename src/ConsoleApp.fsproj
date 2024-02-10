@@ -27,6 +27,7 @@
     <Compile Include="Collections\IntRangesArray.fs" />
     <Compile Include="Collections\List.fs" />
     <Compile Include="Collections\Array.fs" />
+    <Compile Include="Collections\Sequences.fs" />
     <Compile Include="Generics\GetTypeName.fs" />
     <Compile Include="Generics\WronglyInferedGenericKvp.fs" />
     <Compile Include="Generics\GenericKvp.fs" />
