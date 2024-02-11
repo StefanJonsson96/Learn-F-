@@ -9,6 +9,8 @@ open ConsoleApp.Collections.ConsOperatorList
 open ConsoleApp.Collections.ConcatenateOperatorList
 open ConsoleApp.Collections.PipeForwardOperatorList
 open ConsoleApp.Collections.Sequences
+open ConsoleApp.Collections.Dictionary
+open ConsoleApp.Collections.Sets
 open ConsoleApp.Generics.GenericKvp
 open ConsoleApp.Generics.GenericKvpTesting
 open ConsoleApp.Generics.GetTypeName
@@ -44,6 +46,6 @@ open System
 module Main = 
 
    [<EntryPoint>] 
-   sequenceTest 0 |> ignore
-   slowListTest 0 |> ignore
+   dictionaryTest 0 |> ignore
+   setTest 0 |> ignore
    0
